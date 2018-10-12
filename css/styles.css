@@ -1,0 +1,164 @@
+.backgrount-transparent {
+	border: none;
+	background: transparent;
+}
+.backgrount-transparent:hover {
+	border: none;
+	background: transparent;
+}
+.menu-button i {
+	font-size: 20px;
+	color: #191919;
+}
+.logo {
+	width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-icon-content {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	cursor: pointer;
+}
+#search-input {
+    padding-left: 30px;
+    font-weight: bold;
+}
+.menu-list {
+	display: flex !important;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding-left: 0px;
+}
+.menu-list li {
+	display: inline-block;
+}
+.menu-list li:not(:last-child) {
+	margin-right: 15px;
+}
+.menu-icon {
+	cursor: pointer;
+}
+.menu-icon .icon-bar {
+    width: 45px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+.menu-icon .icon-bar:not(:last-child) {
+	margin-bottom: 15px;
+}
+.search-form-content {
+	width: 300px;
+	position: relative;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.search-form-content.widtAnimation {
+	position: relative !important;
+	width: 400px   
+}
+.page-title, .date-info-content h3 {
+	font-family: FiraSans;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 25px;
+	color: #3a3a3a;
+}
+.date-info-content h3 {
+	font-weight: normal;
+}
+.currencyUpdate, .currencyCalc, .date-info-content p {
+    font-family: FiraSans;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3a3a3a;
+    margin-bottom: 5px;
+}
+.currencyUpdate span {
+	text-decoration: underline;
+}
+.banner {
+	width: 100%;
+	height: 120px;
+	background-color: red;
+	margin-top: 25px;
+}
+.currencyDetailsContent {
+	background-color: #eeeeee;
+	padding: 10px;
+}
+.currencyDetailsContent.active a {
+	color: #8aaac2 !important;
+}
+.currencyDetailsContent strong, .currencyDetailsContent span {
+	display: block;
+}
+@media screen and (max-width: 768px) {
+	.search-form-content {
+		padding-right: 15px; 
+	}
+	.search-icon-content {
+		top: 2px;
+		cursor: pointer;
+		font-size: 23px;
+		margin-bottom: 0px;
+	}
+	.search-form-content {
+		position: absolute !important;
+		right: 60px;
+		width: 40px;
+	}
+	.widtAnimation .search-icon-content {
+		left: 20px;
+	    z-index: 10;
+	}
+	.widtAnimation #search-input {
+		display: block;
+	}
+
+	.search-form-content.widtAnimation {
+		position: absolute !important;
+		width: 100%;
+		height: 40px;
+		right: 0px;
+		padding-right: 15px;
+		padding-left: 15px;	    
+	}
+	#search-input {
+	    border: none;
+	}
+	.widtAnimation #search-input {
+        border: 1px solid #ced4da;
+	}
+	.menu-list {
+		margin-top: 1px;
+	}
+	.logo {
+		height: 40px;
+		line-height: 39px;
+	}
+	.menu-icon .icon-bar {
+		width: 35px;
+	}
+	.page-title {
+		font-size: 22px;
+	} 
+}
+@media screen and (max-width: 380px) {
+	.logo {
+	    width: 190px;
+	    font-size: 20px;
+	}
+	.page-title {
+		font-size: 18px;
+	}
+} 
