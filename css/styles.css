@@ -66,7 +66,7 @@
 	position: relative !important;
 	width: 400px   
 }
-.page-title, .date-info-content h3 {
+.page-title, .rate-title, .date-info-content h3 {
 	font-family: FiraSans;
 	font-size: 26px;
 	font-weight: bold;
@@ -76,7 +76,8 @@
 .date-info-content h3 {
 	font-weight: normal;
 }
-.currencyUpdate, .currencyCalc, .date-info-content p {
+.currencyUpdate, .currencyCalc, .date-info-content p,
+.rate-description {
     font-family: FiraSans;
     font-size: 12px;
     font-weight: bold;
@@ -102,6 +103,23 @@
 .currencyDetailsContent strong, .currencyDetailsContent span {
 	display: block;
 }
+.currency-info-header {
+	background-color: #eeeeee;
+	font-size: 35px;
+	color: #159ff6;
+	border-bottom: 2px solid #159ff6;
+}
+.currency-info-header .currency-name {
+	line-height: normal;
+	font-size: 22px;
+	font-weight: bold;
+}
+.currency-header-block {
+	border-right: 2px solid #fff;
+}
+.currency-description-content.line {
+	border-right: 1.5px solid #eeeeee;
+}
 @media screen and (max-width: 768px) {
 	.search-form-content {
 		padding-right: 15px; 
@@ -124,7 +142,6 @@
 	.widtAnimation #search-input {
 		display: block;
 	}
-
 	.search-form-content.widtAnimation {
 		position: absolute !important;
 		width: 100%;
@@ -152,6 +169,11 @@
 	.page-title {
 		font-size: 22px;
 	} 
+}
+@media screen and (max-width: 576px) {
+	.currency-header-block, .currency-description.line {
+		border-right: 0px;
+	}
 }
 @media screen and (max-width: 380px) {
 	.logo {
