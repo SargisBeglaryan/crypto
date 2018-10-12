@@ -66,7 +66,8 @@
 	position: relative !important;
 	width: 400px   
 }
-.page-title, .rate-title, .date-info-content h3 {
+.page-title, .rate-title, .date-info-content h3,
+.guide-title {
 	font-family: FiraSans;
 	font-size: 26px;
 	font-weight: bold;
@@ -97,7 +98,7 @@
 	background-color: #eeeeee;
 	padding: 10px;
 }
-.currencyDetailsContent.active a {
+.currencyDetailsContent.active > div {
 	color: #8aaac2 !important;
 }
 .currencyDetailsContent strong, .currencyDetailsContent span {
@@ -119,6 +120,19 @@
 }
 .currency-description-content.line {
 	border-right: 1.5px solid #eeeeee;
+}
+.bg-grey {
+    background-color: #eeeeee;
+}
+.guide-columns {
+	border-right: 1px solid #dddddd;
+	border-left: 1px solid #dddddd;
+}
+.guide-columns:not(:first-child) {
+	border-bottom: 1px solid #dddddd;
+}
+.guide-columns .icon-euro {
+    font-size: 13px;
 }
 @media screen and (max-width: 768px) {
 	.search-form-content {
@@ -166,7 +180,7 @@
 	.menu-icon .icon-bar {
 		width: 35px;
 	}
-	.page-title {
+	.page-title, .guide-title {
 		font-size: 22px;
 	} 
 }
@@ -180,7 +194,7 @@
 	    width: 190px;
 	    font-size: 20px;
 	}
-	.page-title {
+	.page-title, .guide-title {
 		font-size: 18px;
 	}
 } 
