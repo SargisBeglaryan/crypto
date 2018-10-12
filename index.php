@@ -156,7 +156,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid mt-5 mb-5">
+	<div class="container-fluid mt-5 mb-5 guide-container">
 		<div class="row">
 			<div class="col-sm-12 mb-3">
 				<div class="guide-title d-inline-block text-left float-left mt-sm-2 mt-md-0 mt-2">
@@ -166,7 +166,7 @@
 					<span class="ml-2 icon-printer"></span>
 				</button>
 			</div>
-			<div class="col-sm-6 mb-3">
+			<div class="col-sm-6 mb-3 guide-columns-content">
 				<div class="bg-dark text-center p-2 text-light">display From (EUR) Euros to (USD) Dollars
 				</div>
 				<div class="col p-0 d-flex guide-columns">
@@ -190,7 +190,7 @@
 					<div class="col-6 d-inline-block guide-column-first text-left pt-2 pb-2 pl-2 pr-0">1 USD</div>
 				</div>
 			</div>
-			<div class="col-sm-6 mb-3">
+			<div class="col-sm-6 mb-3 guide-columns-content">
 				<div class="bg-dark text-center p-2 text-light">display From (USD) Dollars to (EUR) Euros
 				</div>
 				<div class="col p-0 d-flex guide-columns">

@@ -188,6 +188,14 @@
 	.currency-header-block, .currency-description.line {
 		border-right: 0px;
 	}
+	.container-fluid.guide-container, .guide-container .guide-columns-content {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.container-fluid.guide-container > .row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
 @media screen and (max-width: 380px) {
 	.logo {
