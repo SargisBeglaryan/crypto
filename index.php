@@ -162,7 +162,7 @@
 				<div class="guide-title d-inline-block text-left float-left mt-sm-2 mt-md-0 mt-2">
 					Quick Conversion Guide
 				</div>
-				<button type="button" class="btn btn-primary float-right">Print
+				<button type="button" class="btn btn-primary print float-right">Print
 					<span class="ml-2 icon-printer"></span>
 				</button>
 			</div>
@@ -216,7 +216,9 @@
 			</div>
 		</div>
 	</div>
-
+<?php
+	include_once('layouts/footer.php');
+?>
 <script src="js/scripts.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
