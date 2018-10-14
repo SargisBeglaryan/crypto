@@ -12,7 +12,24 @@ $(document).ready(function () {
     	window.print();
     });
 
-    $('.languages-button').on('click', function() {
-    	$('.languages-list-content').slideToggle(600);
+    $('.languages-button').on('click', function(event) {
+    	event.stopPropagation();
+    	$('.languages-list-content').slideToggle(10);
     });
+
+    $('body').on('click', function(e) {
+		$(".languages-list-content").slideUp(10);
+	});
+
+	/*function setEqualHeight(columns) {
+		var tallestcolumn = 0;
+		columns.each(function(){
+			currentHeight = $(this).height();
+			if(currentHeight > tallestcolumn) {
+				tallestcolumn  = currentHeight;
+			}
+		});
+		columns.height(tallestcolumn);
+	}
+	setEqualHeight($(".menu-list-currencies,.menu-list-links")); */
 });
