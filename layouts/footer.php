@@ -1,5 +1,5 @@
 <footer>
 	<?php
-	include_once('partials/footer-body.php') 
+	include('partials/footer-body.php') 
 	?>
 </footer>

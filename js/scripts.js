@@ -21,6 +21,16 @@ $(document).ready(function () {
 		$(".languages-list-content").slideUp(10);
 	});
 
+	$('.menu-icon').on('click', function () {
+		$('footer').fadeOut(200);
+		$('.menu-footer').fadeIn(200);
+	});
+
+	$('.menu-footer-button').on('click', function () {
+		$('footer').fadeIn(200);
+		$('.menu-footer').fadeOut(200);
+	});
+
 	/*function setEqualHeight(columns) {
 		var tallestcolumn = 0;
 		columns.each(function(){

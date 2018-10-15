@@ -156,7 +156,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid mt-5 mb-5 guide-container">
+	<div class="container-fluid mt-5 mb-3 guide-container">
 		<div class="row">
 			<div class="col-sm-12 mb-3">
 				<div class="guide-title d-inline-block text-left float-left mt-sm-2 mt-md-0 mt-2">

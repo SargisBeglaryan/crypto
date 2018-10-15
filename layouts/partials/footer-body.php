@@ -31,10 +31,10 @@
 		<div class="col-sm-9 col-lg-10">
 			<div class="row">
 				<div class="col-sm-6">
-					<h4 class="text-light">Currencies</h4>
+					<h4 class="text-light menu-currency-title">Currencies</h4>
 					<div class="row text-light text-left menu-list-currencies">
 						<div class="col-sm-6 col-lg-4 ">
-							From Dollar to Euro Exchange Rate
+							<a href="#">From Dollar to Euro Exchange Rate</a>
 						</div>
 						<div class="col-sm-6 col-lg-4">
 							From Dollar to Euro Exchange Rate

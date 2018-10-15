@@ -1,4 +1,16 @@
 <header>
+	<div class="menu-footer">
+		<div class="container-fluid pt-3 mb-4">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="float-left bg-primary text-light logo">Crypto Converter</div>
+					<button type="button" class="menu-footer-button float-right text-light backgrount-transparent position-relative">
+			        </button>
+			    </div>
+			</div>
+	    </div>
+	    <?php include('partials/footer-body.php'); ?>
+	</div>
 	<nav class="navbar navbar-expand-lg d-block">
 		<div class="row">
 			<div class="col-sm-12 position-relative">
