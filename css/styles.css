@@ -154,8 +154,9 @@ footer, .menu-footer {
 	-ms-transition: all .3s ease-out;
 	-o-transition: all .3s ease-out;
 	transition: all .3s ease-out;
-	right: 20px;
-	width: 42px;
+    right: 10px;
+    top: 5px;
+    width: 42px;
     height: 42px;
 }
 .menu-footer-button:before, .menu-footer-button:after {
@@ -262,10 +263,10 @@ footer .menu-list-currencies > div, footer .menu-list-links > div,
 	margin-bottom: 15px;
     font-size: 14px;
 }
+footer .menu-list-currencies > div a, footer .menu-list-links > div a,
+.menu-footer .menu-list-currencies > div a, .menu-footer .menu-list-links > div a
 .social-icons-list {
-	list-style-type: none;
-	display: inline-block;
-	padding-left: 0px;
+	color: #fff;
 }
 .social-icons-list li {
 	background-color: #fff;
@@ -384,6 +385,7 @@ footer .menu-list-currencies > div, footer .menu-list-links > div,
 	}
 	.menu-footer-button {
 		right: 0px;
+		top: 0px;
 	}
 	
 }

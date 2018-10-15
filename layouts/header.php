@@ -1,6 +1,6 @@
 <header>
 	<div class="menu-footer">
-		<div class="container-fluid pt-3 mb-4">
+		<div class="container-fluid pt-2 mb-4">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="float-left bg-primary text-light logo">Crypto Converter</div>
