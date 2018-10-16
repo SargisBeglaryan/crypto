@@ -12,13 +12,14 @@ $(document).ready(function () {
     	window.print();
     });
 
-    $('.languages-button').on('click', function(event) {
-    	event.stopPropagation();
-    	$('.languages-list-content').slideToggle(10);
+    $('.languages-button, .currency-select-button').on('click', function(event) {
+		event.stopPropagation();
+		$(this).next().slideToggle(10);
     });
 
     $('body').on('click', function(e) {
 		$(".languages-list-content").slideUp(10);
+		$(".currency-list-content").slideUp(10);
 	});
 
 	$('.menu-icon').on('click', function () {
