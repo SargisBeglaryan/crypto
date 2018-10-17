@@ -71,7 +71,7 @@ button:focus {
 
 .search-form-content.widtAnimation {
 	position: relative !important;
-	width: 400px   
+	width: 370px   
 }
 .page-title, .rate-title, .date-info-content h3,
 .guide-title {
@@ -239,7 +239,8 @@ footer, .menu-footer {
     border-radius: .25rem;
 }
 .languages-list-content .scrollbar:before,
-.currency-list-content .scrollbar:before {
+.currency-list-content .scrollbar:before,
+.search-result .scrollbar:before {
     content: '';
     position: absolute;
     width: 15px;
@@ -263,12 +264,18 @@ footer, .menu-footer {
 	z-index: 100;
 }
 .languages-list-content .list-group li:first-child,
-.currency-list-content .list-group li:first-child {
+.currency-list-content .list-group li:first-child,
+.search-result .list-group a:first-child {
 	border-top: none;
 }
 .languages-list-content .list-group li:last-child,
-.currency-list-content .list-group li:last-child {
+.currency-list-content .list-group li:last-child,
+.search-result .list-group a:last-child {
 	border-bottom: none;
+}
+.languages-list-content .list-group li,
+.currency-list-content .list-group li {
+	cursor: pointer;
 }
 .currency-select-content .list-group li h6 {
 	font-size: 13px;
@@ -279,7 +286,8 @@ footer, .menu-footer {
 	font-size: 13px;
 }
 .languages-list-content .scrollbar,
-.currency-list-content .scrollbar
+.currency-list-content .scrollbar,
+.search-result .scrollbar
 {
 	height: 150px;
 	background: #F5F5F5;
@@ -288,6 +296,24 @@ footer, .menu-footer {
 	0 4px 5px 0 rgba(0, 0, 0, 0.1),
 	0 1px 10px 0 rgba(0, 0, 0, 0.1),
 	0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+.search-result {
+	width: 100%;
+	position: absolute;
+	top : 50px;
+	right: 0px;
+	z-index: 10;
+	display: none;
+}
+.search-result .scrollbar {
+	max-height: 200px;
+	height: auto;
+}
+.listSearch {
+	position: relative;
+	z-index: 100;
+	border-top: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .scrollbar::-webkit-scrollbar-track
@@ -445,6 +471,11 @@ footer .menu-list-currencies > div a, footer .menu-list-links > div a,
 	}
 	.current-currency-convert {
 	    font-size: 65px !important;
+	}
+	.search-result {
+		padding-right: 15px;
+		padding-left: 15px;
+		top: 60px;
 	}
 }
 @media screen and (max-width: 576px) {
