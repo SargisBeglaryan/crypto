@@ -2,16 +2,14 @@ $(document).ready(function () {
 
 	$("#search-input").on('focusin', function (event) {
         $('.search-form-content').addClass('widtAnimation');
-        if($(window).width() < 768 && $(this).val() != '') {
+        if($(this).val() != '') {
 			$('.search-result').fadeIn(100);
         }
     });
 
     $("#search-input").on('focusout', function (event) {
         $('.search-form-content').removeClass('widtAnimation');
-        if($(window).width() < 768) {
-			$('.search-result').fadeOut(100);
-        }
+		$('.search-result').fadeOut(100);
     });
 
     $('.print').on('click', function() {
